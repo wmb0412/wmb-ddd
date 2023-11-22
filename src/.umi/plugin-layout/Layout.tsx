@@ -37,7 +37,7 @@ export default props => {
     return null
   }
 
-  return React.createElement(require("/project/sandbox/node_modules/@umijs/plugin-layout/lib/layout/index.js").default, {
+  return React.createElement(require("/workspace/node_modules/@umijs/plugin-layout/lib/layout/index.js").default, {
     userConfig,
     ...props
   });

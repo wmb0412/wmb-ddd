@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { plugin } from './plugin';
-import * as Plugin_0 from '/project/sandbox/src/app.js';
+import * as Plugin_0 from '/workspace/src/app.js';
 import * as Plugin_1 from '@@/plugin-keep-alive/runtime';
 import * as Plugin_2 from '../plugin-initial-state/runtime';
 import * as Plugin_3 from '@@/plugin-layout/runtime.tsx';
@@ -8,7 +8,7 @@ import * as Plugin_4 from '../plugin-model/runtime';
 
   plugin.register({
     apply: Plugin_0,
-    path: '/project/sandbox/src/app.js',
+    path: '/workspace/src/app.js',
   });
   plugin.register({
     apply: Plugin_1,

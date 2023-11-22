@@ -1,13 +1,13 @@
 // @ts-nocheck
 import React from 'react';
-import initialState from '/project/sandbox/src/.umi/plugin-initial-state/models/initialState';
+import initialState from '/workspace/src/.umi/plugin-initial-state/models/initialState';
 
 // @ts-ignore
-import Dispatcher from '/project/sandbox/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
+import Dispatcher from '/workspace/node_modules/@umijs/plugin-model/lib/helpers/dispatcher';
 // @ts-ignore
-import Executor from '/project/sandbox/node_modules/@umijs/plugin-model/lib/helpers/executor';
+import Executor from '/workspace/node_modules/@umijs/plugin-model/lib/helpers/executor';
 // @ts-ignore
-import { UmiContext } from '/project/sandbox/node_modules/@umijs/plugin-model/lib/helpers/constant';
+import { UmiContext } from '/workspace/node_modules/@umijs/plugin-model/lib/helpers/constant';
 
 export const models = { '@@initialState': initialState,  };
 
